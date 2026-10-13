@@ -7,3 +7,7 @@ upload/
 download/
 db/
 .vs/
+
+# local sqlite (was leaking tracked db)
+*.db
+*.db-journal
